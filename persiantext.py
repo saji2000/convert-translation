@@ -29,4 +29,4 @@ def update_json_with_persian(csv_file, json_file):
         json.dump(data, file, indent=4, ensure_ascii=False)
 
 # Replace 'persian_data.csv' and 'output.json' with your Persian CSV input file and the JSON output file path
-update_json_with_persian('PersianEnglish.csv', 'translation.json')
+update_json_with_persian('PersianEnglish.csv', 'output.json')
