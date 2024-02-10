@@ -17,6 +17,8 @@ def csv_to_json(csv_file, json_file):
                 'arabic_text': arabic_text,
                 'english_text': english_text,
                 'persian_text': "",
+                "subtitle": "",
+                'footnote': "",
             }
             data.append(entry)
 
